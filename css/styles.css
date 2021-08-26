@@ -38,7 +38,7 @@
   --bs-success: #67c29c;
   --bs-info: #1cabc4;
   --bs-warning: #e4c662;
-  --bs-danger: #a16468;
+  --bs-danger: #c5202b;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-black: #000;
@@ -11473,7 +11473,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #00#f8f9fa;
+  color: #f8f9fa;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -11549,7 +11549,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 75%, #000 100%), url("../assets/img/chica.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 75%, #000 100%), url("../assets/img/rosi.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11593,7 +11593,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, rgb(150, 90, 90) 0%, rgba(100, 100, 100, 0.9) 75%, rgba(100, 100, 100, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11601,15 +11601,16 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  background-color: #adb5bd;
+  background-color: #a16468;
+  background: linear-gradient(to bottom, rgb(100, 100, 100, 0.8) 0%, rgba(90, 90, 700, 0.9) 75%, rgba(90, 0, 100, 0.9) 100%);
 }
 .projects-section .featured-text {
-  padding: 2rem;
+  padding: 5rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #7464a1;
+    border-left: 0.5rem solid #a16468;
   }
 }
 .projects-section .project-text {
@@ -11621,15 +11622,15 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #a16468;
     border-width: 0.25rem;
     width: 30%;
   }
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 75%, #000 100%), url("../assets/img/ppp.jpeg");
+  padding: 10rem;
+  background: linear-gradient(to bottom, rgb(90, 0, 100, 0.9) 0%, rgba(540, 125, 5) 75%, rgba(550, 150, 4) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11646,8 +11647,83 @@ body {
   border: 0;
 }
 
+.documentacion-section {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  background: linear-gradient(to bottom, rgb(700, 150, 0.9) 0%, rgba(600, 70, 50, 0.9) 75%, rgba(50, 50, 50, 0.8) 100%);*/
+  padding-inline-end: 3.5rem;
+}
+.documentacion-section p {
+  margin-bottom: 6rem;
+}
+
+/*.skills {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}*/
+  
+.skills-h1 {
+  text-align: center;
+}
+
+.skills {
+  /*margin-top: 0.1rem;*/
+  background: linear-gradient(to bottom, rgb(50, 50, 50, 0.8) 0%, rgba(50, 100, 50, 0.9) 75%, rgba(50, 100, 50, 0.9) 100%);
+}
+
+.skills-h3 {
+  margin-bottom: 5px;
+  margin-left: 25%;
+  text-align: left;
+}
+
+.skills-container {
+  width: 50%;
+  background-color: #0d6efd;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.skills-html {
+  width: 90%;
+  background-color: #17c54c;
+}
+
+.skills-css {
+  width: 85%;
+  background-color: #e4ee21;
+}
+
+.skills-js {
+  width: 15%;
+  background-color: #f29316;
+}
+
+.skills-php {
+  width: 10%;
+  background-color: #f44336;
+}
+
+.reflexion-section {
+  padding-top: 2rem;
+  background: linear-gradient(to bottom, rgb(50, 100, 50, 0.9) 0%, rgba(50, 70, 50, 0.9) 75%, rgba(25, 25, 50, 0.8) 100%);
+}
+.reflexion-section p {
+  margin-bottom: 6rem;
+}
+
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 1.5rem;
+  background: linear-gradient(to bottom, rgb(25, 25, 50, 0.9) 0%, rgba(25, 100, 100, 0.9) 75%, rgba(25, 100, 100, 0.9) 100%);
 }
 .contact-section .card {
   border: 0;
@@ -11683,6 +11759,10 @@ body {
   color: #fff;
 }
 
+
 .footer {
   padding: 5rem 0;
+  background: linear-gradient(to bottom, rgb(25, 100, 100, 0.9) 0%, rgba(25, 100, 100, 0.9) 75%, rgba(50, 50, 50, 0.8) 100%);
+  /*margin-top: 0.1rem;
+  margin: 0.1rem;*/
 }
